@@ -27,7 +27,8 @@ for (let item of usuarios) {
     if (item.pets.length === 0) {
         console.log(`Sou ${item.nome} e não tenho pets`);
     } else {
-        console.log(`Sou ${item.nome} e tenho ${item.pets.length} pets`);
+        let texto = item.pets.length > 1 ? "pets" : "pet";
+        console.log(`Sou ${item.nome} e tenho ${item.pets.length} ${texto}`);
     }
 
 }
