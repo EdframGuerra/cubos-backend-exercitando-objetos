@@ -21,7 +21,7 @@ const participantes = [
 
 
 let contador = 0;
-let encontrandoAmigo = "Augusto";
+let encontrandoAmigo = "Ana";
 
 for (let item of participantes) {
     if (item.nome) {
@@ -33,4 +33,4 @@ for (let item of participantes) {
     }
 
 }
-console.log(`Galera... ${encontrandoAmigo} está na posição ${contador}, corre lá!`);
+console.log(`Galera...  ${encontrandoAmigo} está na posição ${contador}, corre lá!`);
