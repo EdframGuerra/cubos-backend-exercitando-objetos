@@ -13,10 +13,14 @@ const listaDeAulas = [
     },
     {
         identificador: 2,
-        nomeDaAula: "Condicionais",
+        nome_da_aula: "Variáveis"
     },
     {
         identificador: 3,
+        nomeDaAula: "Condicionais",
+    },
+    {
+        identificador: 4,
         nomeDaAula: "Arrays",
     },
 ]
@@ -26,3 +30,5 @@ for (let item of listaDeAulas) {
 }
 
 console.log(curso);
+
+
