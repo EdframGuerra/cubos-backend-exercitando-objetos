@@ -1,11 +1,9 @@
-// clientes
 const patricia = { nome: "Patricia", carrinho: [] }
 const carlos = { nome: "Carlos", carrinho: [] }
 const renato = { nome: "Renato", carrinho: [] }
 const jose = { nome: "José", carrinho: [] }
 const roberto = { nome: "Roberto", carrinho: [] }
 
-// produtos
 const tv = { nome: "TV Samsung 4K", valorEmCentavos: 129900 }
 const notebook = { nome: "Notebook Dell", valorEmCentavos: 399990 }
 const mouse = { nome: "Mouse MX Master 3", valorEmCentavos: 23000 }
@@ -22,12 +20,7 @@ jose.carrinho.push({
 })
 
 console.log(jose.carrinho);
-// pode ser feito atribuindo um valor
-// jose.carrinho = [{
-//     item: tv,
-//     quantidae: 1
-// }]
-// console.log(jose.carrinho);
+
 
 // b. Adicione dois notebooks para o Carlos
 carlos.carrinho.push({

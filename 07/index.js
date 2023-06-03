@@ -1,8 +1,3 @@
-// adicionar propriedade numero ao objeto
-// :numerar em ordem crescente a propriedade numero:
-
-
-
 const livro = {
     nome: 'O poder do hábito',
     capitulos: [

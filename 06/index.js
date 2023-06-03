@@ -1,6 +1,3 @@
-// criar constante joven<18 anos
-// criar constante adulto >18 anos
-
 const usuarios = [
     {
         nome: "João",

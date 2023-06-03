@@ -1,8 +1,3 @@
-//criar um objeto com cosntante chamada endereçco;
-// criar uma um objeto com constante chamad ausuario, sendo que a propriedade endereço do usuario
-// tem que usar o endereço criado no primeiro objeto;
-
-
 const endereco = {
     rua: "Edduardo Diniz",
     numero: 85,
